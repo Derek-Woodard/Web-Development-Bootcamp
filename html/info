@@ -1,4 +1,6 @@
 <!-- 
+*** use ctrl+shift+a to auto wrap selected text***
+
 html means HyperText Markup Language
 HTML tags used to markup code - making paragraphs and headings
 tags noted as <tag>
@@ -36,4 +38,17 @@ use new paragbraph element when needing to separate paragraphs. Don't use breaks
 
 for horizontal rule and break, the / is not needed
 ie. <hr > or <br >
+
+ordered and unordered lists:
+unordered list create bullet points: 
+<ul>
+<li>tag 1</li>
+<li>tag 2</li>
+</ul>
+
+ordered list create numbered lists (1. 2. 3.):
+<ol>
+<li>tag 1</li>
+<li>tag 2</li>
+</ol>
 -->
