@@ -31,4 +31,9 @@ creates a horizontal line at the location
 
 break element: <br />
 separates lines at location - useful for things like poems to structure properly
+
+use new paragbraph element when needing to separate paragraphs. Don't use breaks within a paragraph
+
+for horizontal rule and break, the / is not needed
+ie. <hr > or <br >
 -->
