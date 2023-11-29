@@ -70,7 +70,7 @@ uses attributes
 can have as many attributes as you want:
 <tag attribute=value anotherattribute=value>Content</tag>
 
-iamge elements:
+image elements:
 <img src="url" />
 src = source = what is the source of the image
 "url" is the location of the image
@@ -80,4 +80,17 @@ the 200 represents the size of the picture - 200 x 200 pixel picture
 attribute:
 alt="alternative text description"
 useful for people with visual impairments
+
+File Paths:
+absolute and relative paths
+absolute:
+relative to the root of the computer (C:drive)
+relative:
+relative to the location the current file is in
+relative are always valid if the folder moves around
+special characters:
+../ means to go up one level
+./ means to stay in the current directory
+./ is not strictly needed to look into the current directory - doesn't always work though
+
 -->
