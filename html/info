@@ -1,3 +1,4 @@
+<!-- 
 html means HyperText Markup Language
 HTML tags used to markup code - making paragraphs and headings
 tags noted as <tag>
@@ -8,3 +9,5 @@ closing - </h1>
 the element is between the the openinging tag, the content and the closing tag
 
 headings only go from 1 to 6. There is no h7
+
+-->
