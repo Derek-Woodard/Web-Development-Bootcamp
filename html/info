@@ -70,5 +70,14 @@ uses attributes
 can have as many attributes as you want:
 <tag attribute=value anotherattribute=value>Content</tag>
 
-
+iamge elements:
+<img src="url" />
+src = source = what is the source of the image
+"url" is the location of the image
+image elements are void elements
+<img src="https://picsum.photos/200" /> can be used to get placeholder photos
+the 200 represents the size of the picture - 200 x 200 pixel picture
+attribute:
+alt="alternative text description"
+useful for people with visual impairments
 -->
