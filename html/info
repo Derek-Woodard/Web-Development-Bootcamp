@@ -51,4 +51,24 @@ ordered list create numbered lists (1. 2. 3.):
 <li>tag 1</li>
 <li>tag 2</li>
 </ol>
+
+nesting and indentation
+you can nest a list inside another list
+keep in mind indentation to show start and end of the nested list
+to nest a list - note the list item ends AFTER the nested list:
+<li> item
+    <ul>
+        <li> item </li>
+    </ul>
+</li>
+
+anchor elements:
+<a href="link here"> put link text here </a>
+href is the attribute that connects to the url you want to use
+uses attributes
+<tag attribute=value>Content</tag>
+can have as many attributes as you want:
+<tag attribute=value anotherattribute=value>Content</tag>
+
+
 -->
