@@ -20,5 +20,15 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
 paragraphs work as following:
 <p> content </p>
 
+can use lipsum.com (lorem ipsum) to generate natural placeholder paragraphs for testing
+baconipsum.com for novelty version
+broipsum.com for novelty version 
 
+void elemets - horizontal rule and break elements
+void elements can have no content
+horizontal rule element: <hr />
+creates a horizontal line at the location
+
+break element: <br />
+separates lines at location - useful for things like poems to structure properly
 -->
