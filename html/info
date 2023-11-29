@@ -10,4 +10,15 @@ the element is between the the openinging tag, the content and the closing tag
 
 headings only go from 1 to 6. There is no h7
 
+only have a single h1 - top level heading
+don't skip levels - always go 1,2,3,4,5,6
+these don't break anything, they are just convention
+
+the following shows all details about elements:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
+
+paragraphs work as following:
+<p> content </p>
+
+
 -->
