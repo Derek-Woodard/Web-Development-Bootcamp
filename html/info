@@ -93,4 +93,6 @@ special characters:
 ./ means to stay in the current directory
 ./ is not strictly needed to look into the current directory - doesn't always work though
 
+html boiler plate and proper html structure
+
 -->
