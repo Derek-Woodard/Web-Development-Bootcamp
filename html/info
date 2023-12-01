@@ -94,5 +94,30 @@ special characters:
 ./ is not strictly needed to look into the current directory - doesn't always work though
 
 html boiler plate and proper html structure
+boilerplate is what you start with when  making a new html file
+format:
+<!DOCTYPE html> % says which version of html is being used
+<html lang="en"> % opening tag of html element - lang is the language
+    <head> %includes things that help the website render properly - not visible
+        <meta charset="UTF-8"> meta tag ensures characters used on website are displayed correctly - certain ones won't render emojis, certain ones won't show symbols - UTF-8 is among the most commmon
+        <title>My Website</title> % shows title displayed in the tab for the website
+    </head>
 
+    <body> % where the content of the website go - text, links, etc...
+        % in here are headings, images, links, etc...
+    </body>
+</html> %closing tag of html element
+
+template for copy/paste:
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <title>My Website</title>
+    </head>
+    <body>
+        
+    </body>
+</html>
 -->
