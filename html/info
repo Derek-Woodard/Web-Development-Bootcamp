@@ -125,5 +125,21 @@ shortcut for boilerplate: (only for vscode saved as a .html file)
     </body>
 </html>
 
+hosting a website on GitHub:
+to make available, site and all parts (images, text, etc...) must be put onto a web server
+site files put onto public github repo
+make sure main file is called index.html
+create new public repo
+upload contents of folder containing the website you want to host to the repo
+once uploaded, go to settings, then pages tab
+under branch portion, change none dropdown menu to main, then save
+refresh the page a couple times until a new box appears
+this box shows that your page is live, and the link to get to it
+can take 1-10 minutes to complete the process
+sometimes an error message will show up - just go back and try again
 
+Capstone Projects:
+use GitHub as portfolio
+can highlight good projects by pinning them
+use capstone projects as portfolio content to highlight what I've done
 -->
