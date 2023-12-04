@@ -7,7 +7,7 @@ inline: <tag style="css" />
 internal: <style>css</style>
 external: <link href="style.css"/>
 
-Inline: goes within the html element in same line as an html element:
+Inline: goes within the opening tag of the element you want to style
 <html style="background: blue">
 </html>
 
@@ -39,6 +39,7 @@ html {
 }
 
 the internal styling can apply to any element
+usually goes withint the head element
 
 useful for applying to only one html document
 not as good for multi-page websites
