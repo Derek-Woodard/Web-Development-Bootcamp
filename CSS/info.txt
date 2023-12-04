@@ -2,3 +2,62 @@ CSS stands for Cascading Style Sheets
 Style sheet language allows us to specify how things will long on the webpage
 there are other types of style sheets like Sass or Less
 
+how to add CSS to html website:
+inline: <tag style="css" />
+internal: <style>css</style>
+external: <link href="style.css"/>
+
+Inline: goes within the html element in same line as an html element:
+<html style="background: blue">
+</html>
+
+attribute style followed by the CSS code:
+first part is the property we want to change: background
+the second part is the value you want: blue
+
+inline are useful for adding CSS style to a single element on a page
+not as useful for adding style to many parts
+not recomended for entire document, only for things like one line, or testing
+
+
+Internal:
+done through special html tag - style:
+<html>
+    <head>
+        <style>
+            html {
+                background: red;
+            }
+        </style>
+    </head>
+</html>
+
+internal style can apply to anymore within an html document
+the selector: 
+html {
+    CSS code
+}
+
+the internal styling can apply to any element
+
+useful for applying to only one html document
+not as good for multi-page websites
+
+
+External:
+lives in a completely seperate file
+normall called something like styles.css or main.css
+has CSS rules in it - selector, style, etc...
+
+to link external, in the index we add a link element:
+<html>
+    <head>
+        <link>
+            rel="stylesheet"
+            href="directory location of CSS file"
+        />
+    </head>
+</html>
+
+most commonly used style of CSS
+
