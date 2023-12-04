@@ -1,0 +1,4 @@
+CSS stands for Cascading Style Sheets
+Style sheet language allows us to specify how things will long on the webpage
+there are other types of style sheets like Sass or Less
+
