@@ -62,3 +62,15 @@ to link external, in the index we add a link element:
 
 most commonly used style of CSS
 
+
+CSS selectors:
+choosing where to apply CSS
+
+the CSS selctor is the part that selects the html in order to apply the rules within the {}
+ie.
+h1 {
+    color: blue
+}
+h1 is an element selector - can be any tag
+- selects all h1 tags to have the color blue here
+
