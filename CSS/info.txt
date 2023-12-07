@@ -130,3 +130,69 @@ colours have hex codes
 colours have rgb values as well (0-255,0-255,0-255)
 
 the hex code can be used instead of the name when choosing the colour
+
+
+Text properties:
+color, font-weight, font-size, font-family
+
+size:
+h1 {
+    font-size: 20px
+}
+set the pixel size of the font - 1 pixel ~= 1/96 inch ~= 0.26mm
+can also use pt - points
+1 point ~= 1/72 inch ~= 0.35mm
+standard size 12 in word is 12pt size
+em and rem also can be used
+em (pronounced m) - 1 em = the entire width of the letter "m"
+- meaning if h1 is set to font size 1em, the parent tag h1 is in (so body?) is used
+- if the body has a 20pt font-size and an h1 within the body has 2em font size, the h1 will have 40pt size
+therfore, em is equal to 100% the parents size, being relative to the parent
+
+rem works the same way (relative) as em, but relative to the root of the html file - normally the html element
+rem is a more consistent way of sizing the font
+
+can also use named font sizes like xx-large or large
+
+
+font weight can be either normal or bold
+can use keywords above
+can use relative to parent versions such as lighter or bolder
+can use a number 100-900 to set a value
+
+
+font family
+font-family determines what you want the text to look like
+typefaces include helvetica, sans-serif
+where helvetica is what we want, but sans-serif is the backup
+
+serif type fonts are decorated, serif have only right angles
+
+generic type-face is useful because not all computers have all fonts
+
+if the font has multiple words, use quotes: "Times New Roman"
+
+can use custom fonts as well
+fonts.google.com
+select the font you want and the point size. 
+go to selected family pop-up
+select link dot and copy link
+paste into the font-family html immediately after the style closing tag
+copy the CSS rule from google fonts
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+
+font-family: 'Silkscreen', sans-serif;
+
+can now set your fonts to the style you selected
+
+
+text align:
+text-align: center - sets the alignment of the text
+values include: left, right, center, left, right
+left and right change where the start and end of line are
+- can start on right side and type from right to left
+
+
