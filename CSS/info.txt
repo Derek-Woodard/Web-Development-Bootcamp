@@ -115,3 +115,18 @@ universal selector:
 selects everything to have the same CSS
 
 
+Properties:
+color properties seen:
+background-color: value
+- set background color of whole page
+color: value
+- set color of text
+
+colors are known as named colors
+can search for colours at colorhunt.co
+- free tool online to find palettes with four different colours
+
+colours have hex codes
+colours have rgb values as well (0-255,0-255,0-255)
+
+the hex code can be used instead of the name when choosing the colour
