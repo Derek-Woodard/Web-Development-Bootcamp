@@ -74,3 +74,42 @@ h1 {
 h1 is an element selector - can be any tag
 - selects all h1 tags to have the color blue here
 
+
+class selectors:
+.red-heading {
+    color: red
+}
+where red-heading is the name of class being selected
+
+a class can be added as an attribute to any html element
+used for grouping elements to have the same CSS element to many things
+to apply a class:
+<h2 class="class-name">Red</h2>
+
+
+ID selector:
+#main {
+    color: red
+}
+is can be given in the same way as a class selector:
+<h2 id="main">Red</h2>
+difference between id and class
+class can be applied to many elelements
+id should only be applied to a single element in an html file
+id is completely unique
+
+
+attribute selector:
+p[draggable]{
+    color: red
+}
+attributes include id, class, draggable, href, src
+can select elements with particular attributes or particule values to those attributes
+above selects all paragraph elements with the element draggable and sets them to red
+
+
+universal selector:
+* {
+    color: red
+}
+selects everything to have the same CSS
