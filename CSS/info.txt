@@ -196,3 +196,45 @@ left and right change where the start and end of line are
 - can start on right side and type from right to left
 
 
+CSS inspecting:
+can use chrome inspect to see course code of websites
+in developer tool (inspect) you can use the three dots - more tools - CSS overview
+this gives an overview of the CSS of the site being inspected.
+
+
+margin, padding and border properties
+each element represents a box on the screen
+height and width can use percentages as well as pixels
+there can also be a border going around the box
+border: 10px solid black
+1st is the thickness of the border
+2nd is the style of the border (can also have dashed)
+3rd is the colour of the border
+
+height and width of the html element does not change when the border size changes
+can further modify borders
+can use after the border is created (tabbed): 
+border: 30px solid black
+    border-top: 0px     - this will make the top of the border 0px wide
+
+border-width: top right bottom left  - can be used to alter the thickness of the sides
+or border-width top/bottom left/right  - 2 parameters instead of 4
+
+padding: 20px;
+this will push the border out by 20px while maintaiing the html element box size
+margin: 10px; 
+adjusts the size of the space outside the border to be 10px
+
+padding and margin (similar to border and border width)
+each have four values that can be provided
+these are for the four sides.
+start on top, then move clockwise around
+can also give 2 value to change top/bottom and left/right
+
+
+can create a box independant of an element - useful for styling things together
+content division element
+<div>content</div>
+can have as many elements as you want within the div
+
+to see div elements, get pesticide chrome extension
