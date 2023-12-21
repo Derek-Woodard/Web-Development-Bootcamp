@@ -238,3 +238,43 @@ content division element
 can have as many elements as you want within the div
 
 to see div elements, get pesticide chrome extension
+
+
+CSS cascade
+cascading from CSS
+multiple rules can be for the same element
+cascading references how we decide which rule gets applied first
+
+ex.
+if a css file is applied to an html file
+a list is given a specific colour
+if one of the list items has an inline style applied making it red,
+the list item with the inline change will be red, but all the others are green
+
+level of importance categories
+position, specificity, type, importance
+
+position - where is the rule positioned(higher/lower) relative to other rules:
+if colour is set to red, then on the next line, it's set to blue:
+the colour will be set to blue because it is applied after the red is set.
+the lower down in a css style file, the more important it is.
+
+specificity: how specific is a selector in terms of the elements being applied:
+if a list element has an id, a class and an attribute of draggable:
+in order of least specific to most:
+element selector - li{}
+class selector - .class_name {}
+attribute selector - li[draggable] {}
+id selector - #id {}
+
+
+Type: extrenal using link element, internal using style element, inline through style attribute
+inline are prioritized first (bottom of the cascade)
+internal are next (middle of the cascade)
+external are last (top of the cascade)
+
+
+importance: important keyword can be applie to any style
+ex:
+color: green !important;
+This makes the green color in this case always bottom of the cascade
