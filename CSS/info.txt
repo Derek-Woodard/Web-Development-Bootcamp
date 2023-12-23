@@ -278,3 +278,51 @@ importance: important keyword can be applie to any style
 ex:
 color: green !important;
 This makes the green color in this case always bottom of the cascade
+
+
+combining CSS selectors:
+can use multiple selectors to be more specific when setting style
+ex:
+inner box is a div with class inner-box
+.inner-box p {
+    color: white;
+}
+in this case, all paragraph elements in inner-box will be white
+
+group rule:
+selector, selector {
+    color: blueviolet
+}
+this selects all selectors chosen and applies the style - this can have as many selectors as you want
+
+
+child:
+selector > selector {
+    color: firebrick;
+}
+first selector is the parent, second is the child
+meaning: if there is a div with a div inside itm the first is the parent and the inner one is the child
+these can only go one child deep - only the direct child
+
+descendant:
+selector selecctor {
+    color: blue;
+}
+first is the ancestor, second is the descendant
+the style will be applied to the descendant as long as it as an ancestor with the first selector somewhere
+
+chaining:
+selectroselector {
+    color: seagreen;
+}
+apply these styles to the instances where all the selectors are true
+the element HAS to go first in the chain
+
+
+combining combiners:
+selector selectorselector {
+    font-size: 2rem;
+}
+use descendant and chaining to use combinations
+
+
