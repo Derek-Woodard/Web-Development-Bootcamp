@@ -326,3 +326,55 @@ selector selectorselector {
 use descendant and chaining to use combinations
 
 
+CSS position
+four values for position property
+static
+relative
+absolute
+fixed
+
+static:
+HTML default
+position can be set to static (but deafult, so not needed)
+static will add elements to the bottom of the previous element
+
+
+relative positioning: (most common)
+item is positioned relative to the default position (the static position)
+position: relative;
+left: 50px;
+top: 50px;
+the above will push the element 50 pixels from the left and from the top
+
+
+absolute positioning:
+position relative to the nearest positioned ancestor or the top left corner of the webpage
+if a div has a div within it
+the ancestor div has a telative position
+the descendant div has an absolute position
+the descendant will be positioned relative to the position of the ancestor
+if the ancestor position is not set to relative (and all others), the descendant will be positioned relative to the top left corner of the page
+absolute can use top and left to shift the element
+
+there is also a z-index
+this determines which element goes on top of others (which is higher on the z axis)
+the higher the z index, the higher the element sits
+z-index: -10;
+the above will push an element behind others
+default z-index is 0
+
+
+fixed positioning:
+position relative to the top left corner of the browser window
+This means it is relative to the top left of the visible window
+the scroll bar being moved will not move the element
+if you scroll, the element will remain fixed in the same position.
+
+
+can also use right and bottom aside from left and top
+you can also add a margin, padding, and border
+
+to make a circle, you need a width, height, and colour
+border-radius: px
+this will round the corners
+if you set border-radius to 50%, it created a circle
